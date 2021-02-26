@@ -1,9 +1,62 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
 ul {
     list-style-type: none;
 }
 
-a, .header {
+.header {
     text-decoration: none;
     color: #222;
 
 }
+
+.header:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-decoration: none;
+    color: #70757a;
+}
+
+.footer:hover {
+    text-decoration: underline;
+}
+
+.button {
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 0 16px;
+    color: #3c4043;
+    cursor: pointer;
+    height: 36px;
+
+}
+
+#youtubelink {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+#youtubelink:hover {
+    text-decoration: underline;
+}
+
+#profile {
+    display: block;
+    background-size: 32px 32px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+#youtube {
+    display: block;
+    width: 34px;
+    height: 24px;
+}
+

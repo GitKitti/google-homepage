@@ -1,6 +1,12 @@
 html {
     font-family: Arial, sans-serif;
     font-size: 14px;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
 }
 
 ul {
@@ -60,3 +66,29 @@ ul {
     height: 24px;
 }
 
+/* trying out flexbox here */
+
+.box1 {
+    display: flex;
+    background-color: blueviolet;
+}
+
+.box2 {
+    display: flex;
+    background-color: burlywood;
+}
+
+.box3 {
+    display: flex;
+    background-color: cornflowerblue;
+}
+
+.box4 {
+    display: flex;
+    background-color: darkgreen;
+}
+
+.box5 {
+    display: flex;
+    background-color: yellow;
+}

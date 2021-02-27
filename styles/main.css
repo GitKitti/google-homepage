@@ -1,12 +1,13 @@
 html {
     font-family: Arial, sans-serif;
     font-size: 14px;
-    height: 100%;
 }
 
-body {
-    margin: 0;
+html, body {
+    padding: 0px;
+    margin: 0px;
     height: 100%;
+    min-width: 400px;
 }
 
 ul {
@@ -16,7 +17,6 @@ ul {
 .header {
     text-decoration: none;
     color: #222;
-
 }
 
 .header:hover {
@@ -43,15 +43,6 @@ ul {
 
 }
 
-#youtubelink {
-    text-decoration: none;
-    color: #1a0dab;
-}
-
-#youtubelink:hover {
-    text-decoration: underline;
-}
-
 #profile {
     display: block;
     background-size: 32px 32px;
@@ -60,35 +51,94 @@ ul {
     border-radius: 50%;
 }
 
-#youtube {
+#menuicon {
     display: block;
-    width: 34px;
-    height: 24px;
+    width: 10px;
+    height: 10px;
+}
+
+#google {
+    display: block;
+    width: 272px;
+    height: 92px;
 }
 
 /* trying out flexbox here */
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .box1 {
     display: flex;
-    background-color: blueviolet;
+    height: 7%;
+    margin: 0px;
+    justify-content: space-between;
 }
+
+.leftbox1 {
+    display: flex;
+    padding: 0 30px;
+    height: 100%;
+    width: 100px;
+    background-color: yellowgreen;
+    align-items: center;
+    
+}
+
+.rightbox1 {
+    display: flex;
+    padding: 0 30px;
+    height: 100%;
+    width: 200px;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
 
 .box2 {
     display: flex;
-    background-color: burlywood;
+    height: 32%;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .box3 {
     display: flex;
     background-color: cornflowerblue;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
 }
 
 .box4 {
     display: flex;
-    background-color: darkgreen;
+
+    height: 35%;
 }
 
 .box5 {
     display: flex;
-    background-color: yellow;
+    background-color: #f2f2f2;
+    height: 6%;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.leftbox5 {
+    display: flex;
+    padding: 0 30px;
+    height: 100%;
+    width: 300px;
+    align-items: center;
+}
+
+.rightbox5 {
+    display: flex;
+    padding: 0 30px;
+    height: 100%;
+    width: 200px;
+    align-items: center;
 }

@@ -40,7 +40,11 @@ ul {
     color: #3c4043;
     cursor: pointer;
     height: 36px;
+}
 
+.button:hover {
+    box-shadow: 1px 1px 5px gray;
+    
 }
 
 #profile {
@@ -51,16 +55,62 @@ ul {
     border-radius: 50%;
 }
 
+#profile:hover {
+    box-shadow: 1px 1px 5px 5px hsl(0, 0%, 75%);
+
+}
+
 #menuicon {
     display: block;
-    width: 10px;
-    height: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+#menuicon:hover {
+    box-shadow: 1px 1px 7px 5px hsl(0, 0%, 75%);
 }
 
 #google {
     display: block;
     width: 272px;
     height: 92px;
+}
+
+.searchbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 45px;
+    border-radius: 30px;
+    border-color: hsl(0, 0%, 85%);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.searchbox:hover {
+    box-shadow: 1px 1px 5px hsl(0, 0%, 80%);
+}
+
+#searchbar {
+    justify-content: center;
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.searchbutton {
+    display: flex;
+    justify-content: center;
+}
+
+.spacebetween {
+    display: flex;
+    width: 10px;
+
 }
 
 /* trying out flexbox here */
@@ -70,6 +120,8 @@ ul {
     flex-direction: column;
     height: 100%;
 }
+
+/* .box 1 is header */
 
 .box1 {
     display: flex;
@@ -83,7 +135,6 @@ ul {
     padding: 0 30px;
     height: 100%;
     width: 100px;
-    background-color: yellowgreen;
     align-items: center;
     
 }
@@ -94,9 +145,9 @@ ul {
     height: 100%;
     width: 200px;
     align-items: center;
-    background-color: blanchedalmond;
 }
 
+/* .box2 contains google logo */
 
 .box2 {
     display: flex;
@@ -105,19 +156,24 @@ ul {
     align-items: flex-end;
 }
 
+/* .box3 contains search bar and search buttons */
+
 .box3 {
     display: flex;
-    background-color: cornflowerblue;
     height: 20%;
     justify-content: center;
     align-items: center;
 }
+
+/* .box4 is blank space between .box3 and footer */
 
 .box4 {
     display: flex;
 
     height: 35%;
 }
+
+/* .box5 is footer */
 
 .box5 {
     display: flex;

@@ -1,4 +1,4 @@
-<a href="https://gitkitti.github.io/google-homepage/">Live Demo</a>  ![Cat] (/images/cat.jpeg)
+<a href="https://gitkitti.github.io/google-homepage/">Live Demo</a>  ![orange cat pointing to the left](https://github.com/GitKitti/google-homepage/blob/main/images/cat.jpeg)
 
 
 
